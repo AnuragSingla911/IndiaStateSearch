@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#00ff00"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/ip_address_search_btn"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="#00ffff"
+        android:text="Search IP Address"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ip_text_search_btn"
+        android:layout_marginTop="50dp"
+        android:background="#00ffff"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:text="Search State Name"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
